@@ -1,37 +1,46 @@
 📊 Status dos Colaboradores no Power BI
-= Este repositório contém um exemplo de visualização de uma tabeka SVG, desenvolvido usando DAX e SVG. O visual exibe informações sobre colaboradores, como nome, status, cargo, data de admissão e pontuação de performance, além de uma barra de progresso dinâmica que representa a performance do colaborador.
+= 
+
+Este repositório contém um exemplo de visualização de uma tabeka SVG, desenvolvido usando DAX e SVG. O visual exibe informações sobre colaboradores, como nome, status, cargo, data de admissão e pontuação de performance, além de uma barra de progresso dinâmica que representa a performance do colaborador.
 
 👤 Autor
+=
+
 Nome: Reed Iury
 
 LinkedIn: linkedin.com/in/reediury
 
 📦 Arquivos
+=
 
 tabela_svg.pbix: Exemplo de relatório Power BI com a visualização de status dos colaboradores.
 
 README.md: Este arquivo de documentação.
 
 🚀 Instruções de Uso
+=
 
 Para usar este visual no Power BI, você pode incorporar o código DAX fornecido em um cartão ou tabela que suporte a renderização de SVG. O código gera um SVG dinâmico que exibe informações atraentes sobre o status dos colaboradores.
 
 Arquivo de Exemplo:
+=
 
 O arquivo tabela_svg.pbix contém um exemplo completo com o código aplicado.
 
 Explicação do Código:
-
-= O código é estruturado para gerar uma visualização SVG que mostra:
+=
+O código é estruturado para gerar uma visualização SVG que mostra:
 
 Status do Colaborador:
 
 O status é determinado pela coluna [Status], onde 1 representa "Ativo" e 0 representa "Inativo".
 As cores são atribuídas com base no status, utilizando verde (#4CAF50) para "Ativo" e laranja (#FF9800) para "Inativo".
+
 Informações do Colaborador:
 
 O nome do colaborador é exibido em texto negrito.
 O cargo do colaborador e a data de admissão são apresentados abaixo do nome, formatando a data como "dd/MM/yyyy".
+
 Performance:
 
 A pontuação de performance é obtida da coluna [PerformanceScore], que varia de 0 a 100.
