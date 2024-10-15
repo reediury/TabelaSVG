@@ -1,7 +1,7 @@
 Preview
 =
 
-Acesse aqui () para o guia em português.
+Acesse aqui (https://github.com/reediury/TabelaSVG/blob/main/PORTUGUES.md) para o guia em português.
 
 Click here (https://github.com/reediury/TabelaSVG/blob/main/ENGLISH.md) for the guide in English.
 
